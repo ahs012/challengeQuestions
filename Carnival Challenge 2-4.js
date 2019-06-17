@@ -1,6 +1,9 @@
 // Challenge #2
 // Organize Destinations alphabetically
-
+// I was having troubles selecting the tiles, below I sorted them alphabetically.
+// To fully solve this challenge I would:
+// Use JQuery selectors to grab the children of the tile list, and sort/organize their names
+// Then insert that to the page
 function alphabetSort(){
     const tilesArr = ["Caribbean", "The Bahamans", "Mexico", "Europe", "Bermuda", "Alaska", "Canada & New England", "Hawaii", "Panama Canal", "Transatlantic", "Transpacific", "Australia"];
     tilesArr.sort()
